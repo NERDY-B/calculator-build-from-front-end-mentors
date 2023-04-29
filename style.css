@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(42, 24, 121);
+}
+.main-container{
+    width:40%;
+    height:100%;
+    /* border: 1px solid black; */
+    margin:15% auto;
+    /* position: relative; */
+    /* display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row; */
+}
+
+.top-left-content{
+    width: 20%;
+    position: relative;
+    top: 5px;
+    left: 87%;
+    color: white;
+
+}
+
+.top-left-content label{
+    padding: 0 5px;
+}
+.second-container{
+    /* position: absolute;
+    top: 10px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+.second-container div{
+    
+    border-radius: 30px;
+    width: 70px;
+    height: 20px;
+    margin-top: 5px;
+    background:rgb(24, 13, 73);
+    
+}
+
+.second-container p{
+    padding: 5px;
+}
+
+.hidden{
+    opacity: 0;
+}
+.second-container div ul{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    margin-left: 4px;
+    
+
+}
+.second-container div ul li{
+    /* border: 1px solid rgb(0, 0, 0); */
+    border-radius: 40%;
+    width: 10px;
+    height: 10px;
+    margin:5px 5px;
+    padding-left: 5px;
+    background: rgb(238, 98, 16);
+}
+.paragraph{
+    width: 70%;
+}
+.third-container{
+    width: 100%;
+    margin-top: 5%;
+    height: 70px;
+    border-radius: 10px;
+    background:rgb(24, 13, 73);
+    display:flex;
+    
+}
+
+.third-container h1{
+    align-self: flex-end;
+    padding: 4% 0;
+    
+}
+
+/* .third-container input[type="text"]{
+    width: inherit;
+    height: 70px;
+    border-radius: 10px;
+    background:rgb(31, 2, 46);
+    background:rgb(248, 8, 236);
+} */
+
+.last-container {
+    margin-top: 10%;
+    background:rgb(24, 13, 73);
+    border-radius:10px;
+}
+.last-container ul,.parent-list ul li{
+    list-style: none;
+}
+
+
+.parent-list ul {
+    display: flex;
+    flex-direction: row;
+}
+.parent-list ul li{
+    /* border: 1px solid black; */
+    padding: 10px 30px;
+    margin: 10px 30px;
+    border-radius: 13px;
+    text-align: center;
+    background: rgb(150, 148, 148);
+    color: white;
+    color:rgb(245, 238, 238);
+    border-bottom: 3px solid rgb(102, 100, 100);
+}
+.reset, .equal{
+    width: 55%;
+}
+.del{
+    /* width: 15%; */
+    text-align: center;
+    position: relative;
+    left:-15px;
+    /* background:rgb(133, 191, 248); */
+}
+.parent-list .del{
+    background:rgb(133, 191, 248);
+}
+
+.parent-list .reset{
+    background:rgb(133, 191, 248);
+}
+
+.parent-list .equal{
+    background:rgb(238, 98, 16);
+}
